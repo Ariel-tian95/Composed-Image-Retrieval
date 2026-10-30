@@ -134,27 +134,27 @@ query_constraints = {
         "pattern": "printed"
     }
 }
-````
+```
 
 对候选商品进行属性匹配，计算约束满足程度，并结合 CLIP4CIR 原始检索得分调整排名。
 
 初步评分框架：
 
-\[
+$$
 S_i =
 \lambda S_{\text{CIR},i}
 +\alpha S_{\text{preserve},i}
 +\beta S_{\text{modify},i}
 -\gamma P_{\text{exclude},i}
-\]
+$$
 
 其中：
 
-- \\(S\_{\text{CIR}}\\)：CLIP4CIR 原始检索得分；
-- \\(S\_{\text{preserve}}\\)：保留属性匹配得分；
-- \\(S\_{\text{modify}}\\)：修改目标匹配得分；
-- \\(P\_{\text{exclude}}\\)：违反排除条件的惩罚；
-- \\(\lambda,\alpha,\beta,\gamma\\)：待通过验证集实验确定的权重。
+- $S_{\text{CIR},i}$：CLIP4CIR 原始检索得分；
+- $S_{\text{preserve},i}$：保留属性匹配得分；
+- $S_{\text{modify},i}$：修改目标匹配得分；
+- $P_{\text{exclude},i}$：违反排除条件的惩罚；
+- $\lambda,\alpha,\beta,\gamma$：待通过验证集实验确定的权重。
 
 以上公式为初步研究设计，最终评分方法以实验结果和数据可用性为准。
 
@@ -350,7 +350,7 @@ Recall\@K 用于标准组合检索评估。
 
 设备配置：
 
-\- CPU：Intel Core Ultra 7 155H。
+- CPU：Intel Core Ultra 7 155H。
 
 主要职责：代码开发与云端 GPU 实验。
 
