@@ -15,6 +15,7 @@
 | FashionIQ 标注 | https://github.com/XiaoxiaoGuo/fashion-iq | 原样保留 captions 和 image_splits |
 | FashionIQ 图片 URL | https://github.com/hongwang600/fashion-iq-metadata | 按验证集 ID 下载；JPEG 解码转 RGB PNG，不缩放；记录失败 |
 | 旧 FashionIQ 镜像 | https://drive.google.com/drive/folders/14JG_w0V58iex62bVUHSBDYGBUECbDdx9 | 本次列目录只获得标注，未列出图片包，不能当作已取得全部图片 |
+| WISER 作者镜像 | https://huggingface.co/datasets/Physicsmile/WISER/blob/main/fashion-iq.7z | 恢复失效 URL 对应图片；先核对发布页 SHA256，再按原始验证集 ID 提取；不更换官方标注 |
 | Fashionpedia | https://github.com/cvdfoundation/fashionpedia | 先取 global attributes 的 train/val 标注，导出属性词表；图片后续按用途准备 |
 | DeepFashion | https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html | 优先调研 Category and Attribute Prediction；与其他 benchmark 区分，遵循其获取条件和用途限制 |
 | VAW | https://vawdataset.com/ | 补充候选，本周未下载 |
@@ -23,7 +24,7 @@
 
 FashionIQ 提供参考商品、两条修改描述、目标商品及图库划分；适用于检索验证，不直接提供本项目完整的属性状态转移标签。不得用其训练三元组训练核心检索模型。验证集结果应称为验证集结果。
 
-Fashionpedia 提供细粒度服装属性体系。本次验证标注读取到 294 项属性；这些属性不应未经核实就映射为项目所需的全部颜色、袖长等标签。需与成员 C 的属性词表逐项对齐，并保留无法确定的映射。
+Fashionpedia 提供细粒度服装属性体系。本次验证标注读取到 294 项属性；原始 ID 不保证连续，必须保留原 ID 与模型输出索引之间的映射。这些属性不应未经核实就映射为项目所需的全部颜色、袖长等标签。需与成员 C 的属性词表逐项对齐，并保留无法确定的映射。
 
 DeepFashion 包含多个不同 benchmark，本项目应先研究类别与属性预测子集。官方页面对用途、再分发及部分子集访问有条件，不能把其他子集的图片或标签直接混用，也不公开上传其原始数据。
 
@@ -41,7 +42,7 @@ checkpoints/context_i2w/        官方模型权重
 results/                        机器生成的检查报告与失败清单
 ```
 
-官方代码实际读取 `external/context_i2w/data/fashion-iq/json`、`image_splits`、`images`。后续接入基线时需要显式复制或链接上述数据到该结构；准备数据不等于官方加载器已运行。
+官方代码实际读取 `external/context_i2w/data/fashion-iq/json`、`image_splits`、`images`。`stage_context_data.py` 将验证标注复制、图片硬链接到该结构（不支持硬链接时复制）；准备数据不等于官方加载器已运行。
 
 ## Kaggle 使用步骤
 
@@ -53,12 +54,15 @@ results/                        机器生成的检查报告与失败清单
 python scripts/prepare_week09.py --root .
 python scripts/download_fashioniq_images.py --root . --limit 12
 python scripts/download_fashioniq_images.py --root .
+python scripts/recover_fashioniq_mirror.py --root .
 python scripts/check_fashioniq.py --root .
+python scripts/stage_context_data.py --root .
+python scripts/summarize_fashionpedia.py --root .
 python -m pip install gdown
 python scripts/download_context_checkpoint.py --root .
 ```
 
-检查脚本在缺图时退出码为 2，这是未满足完整评估条件的提示。下载脚本保留失败 ID，重复执行时跳过已存在且能解码的 PNG。机器报告要随实际文件重新生成，不手工勾选完成。
+检查脚本在缺图时退出码为 2，这是未满足完整评估条件的提示。下载脚本保留失败 ID，重复执行时跳过已存在且能解码的 PNG。镜像恢复需要 7z 或 py7zr。机器报告要随实际文件重新生成，不手工勾选完成。
 
 ## 已验证环境
 
