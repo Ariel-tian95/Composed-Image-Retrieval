@@ -44,3 +44,12 @@ desktop.ini
 .env
 secrets.json
 local_config.py
+
+# Downloaded research assets (Member B)
+/external/
+/data/fashion_iq/
+/data/fashionpedia/
+/data/deepfashion/
+/checkpoints/
+/results/
+*.partial
