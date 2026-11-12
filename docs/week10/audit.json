@@ -1,0 +1,69 @@
+{
+  "categories": {
+    "dress": {
+      "queries": 2017,
+      "splits": {
+        "train": 11452,
+        "val": 3817,
+        "test": 3818
+      },
+      "overlaps": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+      },
+      "annotation_errors": []
+    },
+    "shirt": {
+      "queries": 2038,
+      "splits": {
+        "train": 19036,
+        "val": 6346,
+        "test": 6346
+      },
+      "overlaps": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+      },
+      "annotation_errors": [
+        [
+          1928,
+          "invalid captions"
+        ]
+      ]
+    },
+    "toptee": {
+      "queries": 1961,
+      "splits": {
+        "train": 16121,
+        "val": 5373,
+        "test": 5374
+      },
+      "overlaps": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+      },
+      "annotation_errors": [
+        [
+          676,
+          "invalid captions"
+        ],
+        [
+          1076,
+          "invalid captions"
+        ]
+      ]
+    }
+  },
+  "unique_required_images": 15415,
+  "file_errors": [],
+  "visual_review": {
+    "reviewer": "assistant visual inspection, not human ground truth",
+    "samples": 30,
+    "flagged": 10,
+    "random_seed": 20261112
+  },
+  "scope": "Validation images only; train/test split metadata audited, train/test image completeness not claimed."
+}
