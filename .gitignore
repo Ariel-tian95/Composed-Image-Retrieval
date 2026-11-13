@@ -1,0 +1,25 @@
+# Python environments and interpreter output
+.venv/
+.venv-pilot/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+**/.cache/
+
+# Downloaded datasets, checkpoints, caches, and large feature dumps
+/data/fashion-iq/
+/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+experiments/pilot_study/results/cache/
+experiments/pilot_study/results/features/
+experiments/pilot_study/results/review_cases/*.png
+experiments/pilot_study/results/review_cases/*.html
+experiments/pilot_study/results/
+
+# Local runtime logs
+*.log
+wandb/

@@ -1,0 +1,11 @@
+# Minimal pilot additions. Install a torch/torchvision pair matching the target
+# CUDA runtime separately; do not install the repository's legacy requirements.txt.
+numpy>=1.24,<2.3
+Pillow>=9.0
+pandas>=2.0
+matplotlib>=3.7
+tqdm>=4.64
+ftfy>=6.1
+regex>=2022.0
+einops>=0.6
+einops-exts>=0.0.4
