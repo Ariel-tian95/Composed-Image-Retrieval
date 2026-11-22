@@ -1,0 +1,121 @@
+{
+  "version": "0.1",
+  "status": "member_b_draft_pending_team_alignment",
+  "attributes": {
+    "category": {
+      "type": "single",
+      "values": [
+        "dress",
+        "shirt",
+        "t_shirt",
+        "blouse",
+        "tank_top",
+        "other"
+      ],
+      "note": "FashionIQ 类别是检索子集，不直接等同单件商品细分类。"
+    },
+    "color": {
+      "type": "multi",
+      "values": [
+        "black",
+        "white",
+        "gray",
+        "red",
+        "orange",
+        "yellow",
+        "green",
+        "blue",
+        "purple",
+        "pink",
+        "brown",
+        "beige"
+      ],
+      "note": "颜色受光照影响；Fashionpedia 当前属性表无直接颜色监督。"
+    },
+    "sleeve_length": {
+      "type": "single",
+      "values": [
+        "sleeveless",
+        "short",
+        "elbow",
+        "three_quarter",
+        "long"
+      ],
+      "note": "只标袖长；不能从袖型推断袖长。"
+    },
+    "neckline": {
+      "type": "single",
+      "values": [
+        "crew",
+        "round",
+        "v_neck",
+        "u_neck",
+        "boat",
+        "square",
+        "scoop",
+        "halter",
+        "turtleneck",
+        "other"
+      ],
+      "note": "领口与翻领分开；遮挡时未知。"
+    },
+    "pattern": {
+      "type": "multi",
+      "values": [
+        "plain",
+        "stripe",
+        "check",
+        "dot",
+        "floral",
+        "letters_numbers",
+        "cartoon",
+        "abstract",
+        "other"
+      ],
+      "note": "纹样可共存；印花工艺与图案内容分开。"
+    },
+    "fit": {
+      "type": "single",
+      "values": [
+        "tight",
+        "regular",
+        "loose"
+      ],
+      "note": "贴身程度不等于尺码；商品拍摄方式可影响判断。"
+    },
+    "material_texture": {
+      "type": "multi",
+      "values": [
+        "denim_like",
+        "knit_like",
+        "lace_like",
+        "leather_like",
+        "sheer_like",
+        "other"
+      ],
+      "note": "视觉外观标签，不宣称真实纤维成分；暂不建立自动映射。"
+    }
+  },
+  "prediction_contract": {
+    "value": "single string or list; null when unknown",
+    "status": [
+      "known",
+      "unknown",
+      "uncertain",
+      "not_visible"
+    ],
+    "confidence": "0..1 or null; must be calibrated before feedback use",
+    "source": "model or reviewer provenance"
+  },
+  "query_contract": {
+    "modify": {},
+    "preserve": {},
+    "unspecified": []
+  },
+  "rules": [
+    "Unknown is not a negative label.",
+    "Unspecified is not a preservation requirement.",
+    "Do not use FashionIQ validation captions or targets to train the core retrieval model.",
+    "Draft category definitions are not verified training labels."
+  ]
+}

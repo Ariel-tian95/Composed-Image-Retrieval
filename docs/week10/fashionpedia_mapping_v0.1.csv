@@ -1,0 +1,295 @@
+﻿source_id,source_name,source_group,target_group,target_value,status,note
+0,classic (t-shirt),nickname,,,unmapped,保留原标签，暂不合并。
+1,polo (shirt),nickname,,,unmapped,保留原标签，暂不合并。
+2,undershirt,nickname,,,unmapped,保留原标签，暂不合并。
+3,henley (shirt),nickname,,,unmapped,保留原标签，暂不合并。
+4,ringer (t-shirt),nickname,,,unmapped,保留原标签，暂不合并。
+5,raglan (t-shirt),nickname,,,unmapped,保留原标签，暂不合并。
+6,rugby (shirt),nickname,,,unmapped,保留原标签，暂不合并。
+7,sailor (shirt),nickname,,,unmapped,保留原标签，暂不合并。
+8,crop (top),nickname,,,unmapped,保留原标签，暂不合并。
+9,halter (top),nickname,,,unmapped,保留原标签，暂不合并。
+10,camisole,nickname,,,unmapped,保留原标签，暂不合并。
+11,tank (top),nickname,,,unmapped,保留原标签，暂不合并。
+12,peasant (top),nickname,,,unmapped,保留原标签，暂不合并。
+13,tube (top),nickname,,,unmapped,保留原标签，暂不合并。
+14,tunic (top),nickname,,,unmapped,保留原标签，暂不合并。
+15,smock (top),nickname,,,unmapped,保留原标签，暂不合并。
+16,hoodie,nickname,,,unmapped,保留原标签，暂不合并。
+17,blazer,nickname,,,unmapped,保留原标签，暂不合并。
+18,pea (jacket),nickname,,,unmapped,保留原标签，暂不合并。
+19,puffer (jacket),nickname,,,unmapped,保留原标签，暂不合并。
+20,biker (jacket),nickname,,,unmapped,保留原标签，暂不合并。
+21,trucker (jacket),nickname,,,unmapped,保留原标签，暂不合并。
+22,bomber (jacket),nickname,,,unmapped,保留原标签，暂不合并。
+23,anorak,nickname,,,unmapped,保留原标签，暂不合并。
+24,safari (jacket),nickname,,,unmapped,保留原标签，暂不合并。
+25,mao (jacket),nickname,,,unmapped,保留原标签，暂不合并。
+26,nehru (jacket),nickname,,,unmapped,保留原标签，暂不合并。
+27,norfolk (jacket),nickname,,,unmapped,保留原标签，暂不合并。
+28,classic military (jacket),nickname,,,unmapped,保留原标签，暂不合并。
+29,track (jacket),nickname,,,unmapped,保留原标签，暂不合并。
+30,windbreaker,nickname,,,unmapped,保留原标签，暂不合并。
+31,chanel (jacket),nickname,,,unmapped,保留原标签，暂不合并。
+32,bolero,nickname,,,unmapped,保留原标签，暂不合并。
+33,tuxedo (jacket),nickname,,,unmapped,保留原标签，暂不合并。
+34,varsity (jacket),nickname,,,unmapped,保留原标签，暂不合并。
+35,crop (jacket),nickname,,,unmapped,保留原标签，暂不合并。
+36,jeans,nickname,,,unmapped,保留原标签，暂不合并。
+37,sweatpants,nickname,,,unmapped,保留原标签，暂不合并。
+38,leggings,nickname,,,unmapped,保留原标签，暂不合并。
+39,hip-huggers (pants),nickname,,,unmapped,保留原标签，暂不合并。
+40,cargo (pants),nickname,,,unmapped,保留原标签，暂不合并。
+41,culottes,nickname,,,unmapped,保留原标签，暂不合并。
+42,capri (pants),nickname,,,unmapped,保留原标签，暂不合并。
+43,harem (pants),nickname,,,unmapped,保留原标签，暂不合并。
+44,sailor (pants),nickname,,,unmapped,保留原标签，暂不合并。
+45,jodhpur,nickname,,,unmapped,保留原标签，暂不合并。
+46,peg (pants),nickname,,,unmapped,保留原标签，暂不合并。
+47,camo (pants),nickname,,,unmapped,保留原标签，暂不合并。
+48,track (pants),nickname,,,unmapped,保留原标签，暂不合并。
+49,crop (pants),nickname,,,unmapped,保留原标签，暂不合并。
+50,short (shorts),nickname,,,unmapped,保留原标签，暂不合并。
+51,booty (shorts),nickname,,,unmapped,保留原标签，暂不合并。
+52,bermuda (shorts),nickname,,,unmapped,保留原标签，暂不合并。
+53,cargo (shorts),nickname,,,unmapped,保留原标签，暂不合并。
+54,trunks,nickname,,,unmapped,保留原标签，暂不合并。
+55,boardshorts,nickname,,,unmapped,保留原标签，暂不合并。
+56,skort,nickname,,,unmapped,保留原标签，暂不合并。
+57,roll-up (shorts),nickname,,,unmapped,保留原标签，暂不合并。
+58,tie-up (shorts),nickname,,,unmapped,保留原标签，暂不合并。
+59,culotte (shorts),nickname,,,unmapped,保留原标签，暂不合并。
+60,lounge (shorts),nickname,,,unmapped,保留原标签，暂不合并。
+61,bloomers,nickname,,,unmapped,保留原标签，暂不合并。
+62,tutu (skirt),nickname,,,unmapped,保留原标签，暂不合并。
+63,kilt,nickname,,,unmapped,保留原标签，暂不合并。
+64,wrap (skirt),nickname,,,unmapped,保留原标签，暂不合并。
+65,skater (skirt),nickname,,,unmapped,保留原标签，暂不合并。
+66,cargo (skirt),nickname,,,unmapped,保留原标签，暂不合并。
+67,hobble (skirt),nickname,,,unmapped,保留原标签，暂不合并。
+68,sheath (skirt),nickname,,,unmapped,保留原标签，暂不合并。
+69,ball gown (skirt),nickname,,,unmapped,保留原标签，暂不合并。
+70,gypsy (skirt),nickname,,,unmapped,保留原标签，暂不合并。
+71,rah-rah (skirt),nickname,,,unmapped,保留原标签，暂不合并。
+72,prairie (skirt),nickname,,,unmapped,保留原标签，暂不合并。
+73,flamenco (skirt),nickname,,,unmapped,保留原标签，暂不合并。
+74,accordion (skirt),nickname,,,unmapped,保留原标签，暂不合并。
+75,sarong (skirt),nickname,,,unmapped,保留原标签，暂不合并。
+76,tulip (skirt),nickname,,,unmapped,保留原标签，暂不合并。
+77,dirndl (skirt),nickname,,,unmapped,保留原标签，暂不合并。
+78,godet (skirt),nickname,,,unmapped,保留原标签，暂不合并。
+79,blanket (coat),nickname,,,unmapped,保留原标签，暂不合并。
+80,parka,nickname,,,unmapped,保留原标签，暂不合并。
+81,trench (coat),nickname,,,unmapped,保留原标签，暂不合并。
+82,pea (coat),nickname,,,unmapped,保留原标签，暂不合并。
+83,shearling (coat),nickname,,,unmapped,保留原标签，暂不合并。
+84,teddy bear (coat),nickname,,,unmapped,保留原标签，暂不合并。
+85,puffer (coat),nickname,,,unmapped,保留原标签，暂不合并。
+86,duster (coat),nickname,,,unmapped,保留原标签，暂不合并。
+87,raincoat,nickname,,,unmapped,保留原标签，暂不合并。
+88,kimono,nickname,,,unmapped,保留原标签，暂不合并。
+89,robe,nickname,,,unmapped,保留原标签，暂不合并。
+90,dress (coat ),nickname,,,unmapped,保留原标签，暂不合并。
+91,duffle (coat),nickname,,,unmapped,保留原标签，暂不合并。
+92,wrap (coat),nickname,,,unmapped,保留原标签，暂不合并。
+93,military (coat),nickname,,,unmapped,保留原标签，暂不合并。
+94,swing (coat),nickname,,,unmapped,保留原标签，暂不合并。
+95,halter (dress),nickname,,,unmapped,保留原标签，暂不合并。
+96,wrap (dress),nickname,,,unmapped,保留原标签，暂不合并。
+97,chemise (dress),nickname,,,unmapped,保留原标签，暂不合并。
+98,slip (dress),nickname,,,unmapped,保留原标签，暂不合并。
+99,cheongsams,nickname,,,unmapped,保留原标签，暂不合并。
+100,jumper (dress),nickname,,,unmapped,保留原标签，暂不合并。
+101,shift (dress),nickname,,,unmapped,保留原标签，暂不合并。
+102,sheath (dress),nickname,,,unmapped,保留原标签，暂不合并。
+103,shirt (dress),nickname,,,unmapped,保留原标签，暂不合并。
+104,sundress,nickname,,,unmapped,保留原标签，暂不合并。
+105,kaftan,nickname,,,unmapped,保留原标签，暂不合并。
+106,bodycon (dress),nickname,,,unmapped,保留原标签，暂不合并。
+107,nightgown,nickname,,,unmapped,保留原标签，暂不合并。
+108,gown,nickname,,,unmapped,保留原标签，暂不合并。
+109,sweater (dress),nickname,,,unmapped,保留原标签，暂不合并。
+110,tea (dress),nickname,,,unmapped,保留原标签，暂不合并。
+111,blouson (dress),nickname,,,unmapped,保留原标签，暂不合并。
+112,tunic (dress),nickname,,,unmapped,保留原标签，暂不合并。
+113,skater (dress),nickname,,,unmapped,保留原标签，暂不合并。
+114,asymmetrical,silhouette,,,unmapped,保留原标签，暂不合并。
+115,symmetrical,silhouette,,,unmapped,保留原标签，暂不合并。
+116,peplum,silhouette,,,unmapped,保留原标签，暂不合并。
+117,circle,silhouette,,,unmapped,保留原标签，暂不合并。
+118,flare,silhouette,,,unmapped,保留原标签，暂不合并。
+119,fit and flare,silhouette,,,unmapped,保留原标签，暂不合并。
+120,trumpet,silhouette,,,unmapped,保留原标签，暂不合并。
+121,mermaid,silhouette,,,unmapped,保留原标签，暂不合并。
+122,balloon,silhouette,,,unmapped,保留原标签，暂不合并。
+123,bell,silhouette,,,unmapped,保留原标签，暂不合并。
+124,bell bottom,silhouette,,,unmapped,保留原标签，暂不合并。
+125,bootcut,silhouette,,,unmapped,保留原标签，暂不合并。
+126,peg,silhouette,,,unmapped,保留原标签，暂不合并。
+127,pencil,silhouette,,,unmapped,保留原标签，暂不合并。
+128,straight,silhouette,,,unmapped,保留原标签，暂不合并。
+129,a-line,silhouette,,,unmapped,保留原标签，暂不合并。
+130,tent,silhouette,,,unmapped,保留原标签，暂不合并。
+131,baggy,silhouette,,,unmapped,保留原标签，暂不合并。
+132,wide leg,silhouette,,,unmapped,保留原标签，暂不合并。
+133,high low,silhouette,,,unmapped,保留原标签，暂不合并。
+134,curved (fit),silhouette,,,unmapped,保留原标签，暂不合并。
+135,tight (fit),silhouette,fit,tight,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+136,regular (fit),silhouette,fit,regular,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+137,loose (fit),silhouette,fit,loose,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+138,oversized,silhouette,,,unmapped,保留原标签，暂不合并。
+139,empire waistline,waistline,,,unmapped,保留原标签，暂不合并。
+140,dropped waistline,waistline,,,unmapped,保留原标签，暂不合并。
+141,high waist,waistline,,,unmapped,保留原标签，暂不合并。
+142,normal waist,waistline,,,unmapped,保留原标签，暂不合并。
+143,low waist,waistline,,,unmapped,保留原标签，暂不合并。
+144,basque (wasitline),waistline,,,unmapped,保留原标签，暂不合并。
+145,no waistline,waistline,,,unmapped,保留原标签，暂不合并。
+146,above-the-hip (length),length,,,unmapped,保留原标签，暂不合并。
+147,hip (length),length,,,unmapped,保留原标签，暂不合并。
+148,micro (length),length,,,unmapped,保留原标签，暂不合并。
+149,mini (length),length,,,unmapped,保留原标签，暂不合并。
+150,above-the-knee (length),length,,,unmapped,保留原标签，暂不合并。
+151,knee (length),length,,,unmapped,保留原标签，暂不合并。
+152,below the knee (length),length,,,unmapped,保留原标签，暂不合并。
+153,midi,length,,,unmapped,保留原标签，暂不合并。
+154,maxi (length),length,,,unmapped,保留原标签，暂不合并。
+155,floor (length),length,,,unmapped,保留原标签，暂不合并。
+156,sleeveless,length,sleeve_length,sleeveless,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+157,short (length),length,sleeve_length,short,conditional_review,short (length) 需要结合实例类别和源定义确认，不无条件当作短袖。
+158,elbow-length,length,sleeve_length,elbow,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+159,three quarter (length),length,sleeve_length,three_quarter,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+160,wrist-length,length,sleeve_length,long,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+161,asymmetric (collar),nickname,,,unmapped,保留原标签，暂不合并。
+162,regular (collar),nickname,,,unmapped,保留原标签，暂不合并。
+163,shirt (collar),nickname,,,unmapped,保留原标签，暂不合并。
+164,polo (collar),nickname,,,unmapped,保留原标签，暂不合并。
+165,chelsea (collar),nickname,,,unmapped,保留原标签，暂不合并。
+166,banded (collar),nickname,,,unmapped,保留原标签，暂不合并。
+167,mandarin (collar),nickname,,,unmapped,保留原标签，暂不合并。
+168,peter pan (collar),nickname,,,unmapped,保留原标签，暂不合并。
+169,bow (collar),nickname,,,unmapped,保留原标签，暂不合并。
+170,stand-away (collar),nickname,,,unmapped,保留原标签，暂不合并。
+171,jabot (collar),nickname,,,unmapped,保留原标签，暂不合并。
+172,sailor (collar),nickname,,,unmapped,保留原标签，暂不合并。
+173,oversized (collar),nickname,,,unmapped,保留原标签，暂不合并。
+174,notched (lapel),nickname,,,unmapped,保留原标签，暂不合并。
+175,peak (lapel),nickname,,,unmapped,保留原标签，暂不合并。
+176,shawl (lapel),nickname,,,unmapped,保留原标签，暂不合并。
+177,napoleon (lapel),nickname,,,unmapped,保留原标签，暂不合并。
+178,oversized (lapel),nickname,,,unmapped,保留原标签，暂不合并。
+179,collarless,neckline type,,,unmapped,保留原标签，暂不合并。
+180,asymmetric (neckline),neckline type,,,unmapped,保留原标签，暂不合并。
+181,crew (neck),neckline type,neckline,crew,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+182,round (neck),neckline type,neckline,round,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+183,v-neck,neckline type,neckline,v_neck,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+184,surplice (neck),neckline type,,,unmapped,保留原标签，暂不合并。
+185,oval (neck),neckline type,,,unmapped,保留原标签，暂不合并。
+186,u-neck,neckline type,neckline,u_neck,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+187,sweetheart (neckline),neckline type,,,unmapped,保留原标签，暂不合并。
+188,queen anne (neck),neckline type,,,unmapped,保留原标签，暂不合并。
+189,boat (neck),neckline type,neckline,boat,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+190,scoop (neck),neckline type,neckline,scoop,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+191,square (neckline),neckline type,neckline,square,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+192,plunging (neckline),neckline type,,,unmapped,保留原标签，暂不合并。
+193,keyhole (neck),neckline type,,,unmapped,保留原标签，暂不合并。
+194,halter (neck),neckline type,neckline,halter,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+195,crossover (neck),neckline type,,,unmapped,保留原标签，暂不合并。
+196,choker (neck),neckline type,,,unmapped,保留原标签，暂不合并。
+197,high (neck),neckline type,,,unmapped,保留原标签，暂不合并。
+198,turtle (neck),neckline type,neckline,turtleneck,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+199,cowl (neck),neckline type,,,unmapped,保留原标签，暂不合并。
+200,straight across (neck),neckline type,,,unmapped,保留原标签，暂不合并。
+201,illusion (neck),neckline type,,,unmapped,保留原标签，暂不合并。
+202,off-the-shoulder,neckline type,,,unmapped,保留原标签，暂不合并。
+203,one shoulder,neckline type,,,unmapped,保留原标签，暂不合并。
+204,set-in sleeve,nickname,,,unmapped,保留原标签，暂不合并。
+205,dropped-shoulder sleeve,nickname,,,unmapped,保留原标签，暂不合并。
+206,raglan (sleeve),nickname,,,unmapped,保留原标签，暂不合并。
+207,cap (sleeve),nickname,,,unmapped,保留原标签，暂不合并。
+208,tulip (sleeve),nickname,,,unmapped,保留原标签，暂不合并。
+209,puff (sleeve),nickname,,,unmapped,保留原标签，暂不合并。
+210,bell (sleeve),nickname,,,unmapped,保留原标签，暂不合并。
+211,circular flounce (sleeve),nickname,,,unmapped,保留原标签，暂不合并。
+212,poet (sleeve),nickname,,,unmapped,保留原标签，暂不合并。
+213,"dolman (sleeve), batwing (sleeve)",nickname,,,unmapped,保留原标签，暂不合并。
+214,bishop (sleeve),nickname,,,unmapped,保留原标签，暂不合并。
+215,leg of mutton (sleeve),nickname,,,unmapped,保留原标签，暂不合并。
+216,kimono (sleeve),nickname,,,unmapped,保留原标签，暂不合并。
+217,cargo (pocket),nickname,,,unmapped,保留原标签，暂不合并。
+218,patch (pocket),nickname,,,unmapped,保留原标签，暂不合并。
+219,welt (pocket),nickname,,,unmapped,保留原标签，暂不合并。
+220,kangaroo (pocket),nickname,,,unmapped,保留原标签，暂不合并。
+221,seam (pocket),nickname,,,unmapped,保留原标签，暂不合并。
+222,slash (pocket),nickname,,,unmapped,保留原标签，暂不合并。
+223,curved (pocket),nickname,,,unmapped,保留原标签，暂不合并。
+224,flap (pocket),nickname,,,unmapped,保留原标签，暂不合并。
+225,single breasted,opening type,,,unmapped,保留原标签，暂不合并。
+226,double breasted,opening type,,,unmapped,保留原标签，暂不合并。
+227,lace up,opening type,,,unmapped,保留原标签，暂不合并。
+228,wrapping,opening type,,,unmapped,保留原标签，暂不合并。
+229,zip-up,opening type,,,unmapped,保留原标签，暂不合并。
+230,fly (opening),opening type,,,unmapped,保留原标签，暂不合并。
+231,chained (opening),opening type,,,unmapped,保留原标签，暂不合并。
+232,buckled (opening),opening type,,,unmapped,保留原标签，暂不合并。
+233,toggled (opening),opening type,,,unmapped,保留原标签，暂不合并。
+234,no opening,opening type,,,unmapped,保留原标签，暂不合并。
+281,plastic,non-textile material type,,,unmapped,保留原标签，暂不合并。
+282,rubber,non-textile material type,,,unmapped,保留原标签，暂不合并。
+283,metal,non-textile material type,,,unmapped,保留原标签，暂不合并。
+285,feather,non-textile material type,,,unmapped,保留原标签，暂不合并。
+286,gem,non-textile material type,,,unmapped,保留原标签，暂不合并。
+287,bone,non-textile material type,,,unmapped,保留原标签，暂不合并。
+288,ivory,non-textile material type,,,unmapped,保留原标签，暂不合并。
+289,fur,non-textile material type,,,unmapped,保留原标签，暂不合并。
+290,suede,leather,,,unmapped,保留原标签，暂不合并。
+291,shearling,leather,,,unmapped,保留原标签，暂不合并。
+292,crocodile,leather,,,unmapped,保留原标签，暂不合并。
+293,snakeskin,leather,,,unmapped,保留原标签，暂不合并。
+294,wood,non-textile material type,,,unmapped,保留原标签，暂不合并。
+295,no non-textile material,non-textile material type,,,unmapped,保留原标签，暂不合并。
+296,burnout,"textile finishing, manufacturing techniques",,,unmapped,保留原标签，暂不合并。
+297,distressed,"textile finishing, manufacturing techniques",,,unmapped,保留原标签，暂不合并。
+298,washed,"textile finishing, manufacturing techniques",,,unmapped,保留原标签，暂不合并。
+299,embossed,"textile finishing, manufacturing techniques",,,unmapped,保留原标签，暂不合并。
+300,frayed,"textile finishing, manufacturing techniques",,,unmapped,保留原标签，暂不合并。
+301,printed,"textile finishing, manufacturing techniques",,,unmapped,保留原标签，暂不合并。
+302,ruched,"textile finishing, manufacturing techniques",,,unmapped,保留原标签，暂不合并。
+303,quilted,"textile finishing, manufacturing techniques",,,unmapped,保留原标签，暂不合并。
+304,pleat,"textile finishing, manufacturing techniques",,,unmapped,保留原标签，暂不合并。
+305,gathering,"textile finishing, manufacturing techniques",,,unmapped,保留原标签，暂不合并。
+306,smocking,"textile finishing, manufacturing techniques",,,unmapped,保留原标签，暂不合并。
+307,tiered,"textile finishing, manufacturing techniques",,,unmapped,保留原标签，暂不合并。
+308,cutout,"textile finishing, manufacturing techniques",,,unmapped,保留原标签，暂不合并。
+309,slit,"textile finishing, manufacturing techniques",,,unmapped,保留原标签，暂不合并。
+310,perforated,"textile finishing, manufacturing techniques",,,unmapped,保留原标签，暂不合并。
+311,lining,"textile finishing, manufacturing techniques",,,unmapped,保留原标签，暂不合并。
+312,applique(a),"textile finishing, manufacturing techniques",,,unmapped,保留原标签，暂不合并。
+313,bead(a),"textile finishing, manufacturing techniques",,,unmapped,保留原标签，暂不合并。
+314,rivet(a),"textile finishing, manufacturing techniques",,,unmapped,保留原标签，暂不合并。
+315,sequin(a),"textile finishing, manufacturing techniques",,,unmapped,保留原标签，暂不合并。
+316,no special manufacturing technique,"textile finishing, manufacturing techniques",,,unmapped,保留原标签，暂不合并。
+317,plain (pattern),textile pattern,pattern,plain,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+318,abstract,textile pattern,pattern,abstract,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+319,cartoon,textile pattern,pattern,cartoon,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+320,"letters, numbers",textile pattern,pattern,letters_numbers,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+321,camouflage,textile pattern,,,unmapped,保留原标签，暂不合并。
+322,check,textile pattern,pattern,check,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+323,dot,textile pattern,pattern,dot,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+324,fair isle,textile pattern,,,unmapped,保留原标签，暂不合并。
+325,floral,textile pattern,pattern,floral,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+326,geometric,textile pattern,,,unmapped,保留原标签，暂不合并。
+327,paisley,textile pattern,,,unmapped,保留原标签，暂不合并。
+328,stripe,textile pattern,pattern,stripe,proposed_direct,语义映射初稿，待成员 C 与组长确认；不是图片预测标签。
+329,houndstooth (pattern),textile pattern,,,unmapped,保留原标签，暂不合并。
+330,herringbone (pattern),textile pattern,,,unmapped,保留原标签，暂不合并。
+331,chevron,textile pattern,,,unmapped,保留原标签，暂不合并。
+332,argyle,textile pattern,,,unmapped,保留原标签，暂不合并。
+333,leopard,animal,,,unmapped,保留原标签，暂不合并。
+334,snakeskin (pattern),animal,,,unmapped,保留原标签，暂不合并。
+335,cheetah,animal,,,unmapped,保留原标签，暂不合并。
+336,peacock,animal,,,unmapped,保留原标签，暂不合并。
+337,zebra,animal,,,unmapped,保留原标签，暂不合并。
+338,giraffe,animal,,,unmapped,保留原标签，暂不合并。
+339,toile de jouy,textile pattern,,,unmapped,保留原标签，暂不合并。
+340,plant,textile pattern,,,unmapped,保留原标签，暂不合并。
