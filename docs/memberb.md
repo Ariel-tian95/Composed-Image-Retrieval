@@ -41,3 +41,7 @@ GitHub 保存代码、配置、报告与小型审计材料；大规模图片和�
 本机已交付路径：`C:\Users\aerith\Desktop\大三上\商务大数据\Context-I2W\team-project`。FashionIQ 图片在 `data/fashion_iq/images`；权重在 `checkpoints/context_i2w`。本机工作副本可能仍选中旧分支，切换前先检查未提交修改，不能强制覆盖。
 
 原论文：https://arxiv.org/html/2309.16137v2
+
+## 2026-11-23：Fashionpedia 25项人工核查
+
+[交付与④—⑤验收状态](attribute-pilot/fashionpedia-25-review/README.md)：25项经成员B人工确认通过，含完整294行映射表、52张候选原图、25页实例核查图及实例标注子集。④仅完成Fashionpedia本轮25项，269项未映射与DeepFashion未完成；⑤模型可靠性指标尚未完成。

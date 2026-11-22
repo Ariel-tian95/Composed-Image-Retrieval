@@ -1,0 +1,23 @@
+[
+  {
+    "archive": "C://Users//aerith//Documents//Codex//2026-11-06//referenced-chatgpt-conversation-this-is-an//outputs//week09-member-b//downloads//fashion-iq-wiser.7z",
+    "nested_member": "images.tar.gz",
+    "matches": [],
+    "readable": true,
+    "members": 74382
+  },
+  {
+    "archive": "C://Users//aerith//Documents//Codex//2026-11-06//referenced-chatgpt-conversation-this-is-an//outputs//week09-member-b//downloads//fashion-iq-wiser.7z",
+    "nested_member": "captions-20220326T130604Z-001.zip",
+    "matches": [],
+    "readable": true,
+    "members": 9
+  },
+  {
+    "archive": "C://Users//aerith//Documents//Codex//2026-11-06//referenced-chatgpt-conversation-this-is-an//outputs//week09-member-b//downloads//fashion-iq-wiser.7z",
+    "nested_member": "image_splits-20220326T130551Z-001.zip",
+    "matches": [],
+    "readable": true,
+    "members": 9
+  }
+]
