@@ -1,0 +1,33 @@
+{
+  "color": [
+    "black",
+    "white",
+    "gray",
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "purple",
+    "pink",
+    "brown",
+    "beige",
+    "multicolor"
+  ],
+  "sleeve_length": [
+    "sleeveless",
+    "short",
+    "elbow",
+    "three_quarter",
+    "long"
+  ],
+  "pattern": [
+    "plain",
+    "stripe",
+    "check",
+    "dot",
+    "floral",
+    "letters_graphics",
+    "mixed"
+  ]
+}

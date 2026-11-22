@@ -1,0 +1,26 @@
+﻿source_id,source_label,target_group,target_value,val_global_annotation_count,example_image_ids,verification_status,note
+135,tight (fit),fit,tight,354,20712;14983;15073;15089;15097,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+136,regular (fit),fit,regular,461,17039;17370;20712;15069;15106,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+137,loose (fit),fit,loose,197,17039;20712;15069;15106;15201,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+156,sleeveless,sleeve_length,sleeveless,8,16455;16599;17769;18075;18415,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+157,short (length),sleeve_length,short,168,15073;15201;15227;15279;15565,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+158,elbow-length,sleeve_length,elbow,67,15300;15525;15699;15707;15758,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+159,three quarter (length),sleeve_length,three_quarter,77,20712;15225;15380;15384;15387,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+160,wrist-length,sleeve_length,long,412,17039;17370;20712;14983;15069,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+181,crew (neck),neckline,crew,17,16431;11469;17658;16962;18568,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+182,round (neck),neckline,round,195,15225;15227;15291;15349;15424,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+183,v-neck,neckline,v_neck,82,15214;15676;15743;16034;16059,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+186,u-neck,neckline,u_neck,35,15461;15703;16182;16437;16489,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+189,boat (neck),neckline,boat,57,15379;15380;15387;15783;15860,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+190,scoop (neck),neckline,scoop,75,7487;15525;15531;15559;15565,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+191,square (neckline),neckline,square,20,15112;16187;16222;16283;17515,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+194,halter (neck),neckline,halter,15,15351;15770;15771;15785;15800,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+198,turtle (neck),neckline,turtleneck,30,15089;15300;14811;16508;17313,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+317,plain (pattern),pattern,plain,964,17039;17370;20712;14983;15069,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+318,abstract,pattern,abstract,77,15214;15229;15291;15431;15665,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+319,cartoon,pattern,cartoon,21,15185;15255;16437;16566;16599,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+320,"letters, numbers",pattern,letters_numbers,9,16148;16431;16599;16892;23338,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+322,check,pattern,check,52,15338;15559;15604;2083;15783,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+323,dot,pattern,dot,40,15187;15771;16059;16222;16283,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+325,floral,pattern,floral,122,14983;15076;15227;15229;15279,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
+328,stripe,pattern,stripe,89,15384;15528;15687;15743;15769,pending_instance_level_visual_verification,整图属性可来自不同服装；这些ID只是待核查线索，不是映射有效的证明。
