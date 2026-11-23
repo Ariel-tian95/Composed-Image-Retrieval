@@ -1,0 +1,20 @@
+[
+  {
+    "split": "dev",
+    "count": 50,
+    "bom": true,
+    "newlines": true,
+    "quoted_unicode_roundtrip": true,
+    "import": true,
+    "conflict_protection": true
+  },
+  {
+    "split": "eval",
+    "count": 100,
+    "bom": true,
+    "newlines": true,
+    "quoted_unicode_roundtrip": true,
+    "import": true,
+    "conflict_protection": true
+  }
+]

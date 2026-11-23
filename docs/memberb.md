@@ -45,3 +45,7 @@ GitHub 保存代码、配置、报告与小型审计材料；大规模图片和�
 ## 2026-11-23：Fashionpedia 25项人工核查
 
 [交付与④—⑤验收状态](attribute-pilot/fashionpedia-25-review/README.md)：25项经成员B人工确认通过，含完整294行映射表、52张候选原图、25页实例核查图及实例标注子集。④仅完成Fashionpedia本轮25项，269项未映射与DeepFashion未完成；⑤模型可靠性指标尚未完成。
+
+## 2026-11-23：第⑤项实验准备
+
+[人工标注、Kaggle运行与验收说明](attribute-pilot/reliability/README.md)。沿用50开发+100评估，150张原PNG哈希核对通过；现有真值表为空，未发现模型预测。已完善导入续标、冲突保护、模型/协议记录、冻结检查、评价指标与错误案例输出，并通过离线测试。GPU实验与人工真值待完成，⑤未验收。入口：notebooks/attribute_reliability.ipynb。

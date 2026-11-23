@@ -1,0 +1,15 @@
+{
+  "status": "pending_human_labels_and_gpu_predictions",
+  "manifest_rows": 150,
+  "split_counts": {
+    "dev": 50,
+    "eval": 100
+  },
+  "original_png_sha256_verified": 150,
+  "annotated_rows_found": 0,
+  "prediction_files_found": 0,
+  "reliability_metrics_available": false,
+  "local_search_files": 52776,
+  "ui_status": "Browser control attempted; Windows helper returned window geometry unavailable; Kaggle not operated.",
+  "local_torch_available": false
+}

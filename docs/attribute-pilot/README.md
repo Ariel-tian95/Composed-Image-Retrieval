@@ -40,3 +40,7 @@ mapping_review_queue.csv保留原25项核查队列。本轮已补齐52张候选�
 - 待用户/团队：150张任务的开发集真实标注、评估集盲标与争议复核；映射语义交叉检查与DeepFashion补充。
 - 待Kaggle：冻结CLIP属性预测。待有标签后才计算可靠性指标。
 - ④本轮Fashionpedia25项人工核查完成，④整体及⑤仍未完成；详见新交付的范围说明。
+
+## 第⑤项新版入口（2026-11-23）
+
+请使用[可靠性实验说明](reliability/README.md)及notebooks/attribute_reliability.ipynb。旧Notebook已同步到新流程；先盲标开发50张，再预测、分析并冻结方案，最后独立评估100张。原抽样与标签表未改动；尚无真实可靠性指标。

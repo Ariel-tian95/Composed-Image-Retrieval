@@ -1,0 +1,11 @@
+{
+  "status": "pending_labels_and_predictions",
+  "accuracy": null,
+  "macro_f1": null,
+  "dev_human_rows_found": 0,
+  "eval_human_rows_found": 0,
+  "gpu_prediction_executed": false,
+  "kaggle_browser_operation": "attempted; Windows helper geometry unavailable",
+  "next": "先盲标dev_人工标注.html的50张，导出labels_dev_代号.csv，再运行attribute_reliability.ipynb",
+  "tests": "6 offline unit tests and 2-page CSV logic tests passed; no GPU/visual UI test claimed"
+}
