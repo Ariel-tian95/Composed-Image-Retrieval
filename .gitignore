@@ -44,3 +44,19 @@ desktop.ini
 .env
 secrets.json
 local_config.py
+
+# ===== 大型数据与权重（按 README 第 9.4 节，不入库）=====
+# data/ 只提交说明文档、校验清单和小体积标注；图片一律不入库
+data/**/*.png
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.webp
+data/**/*.bmp
+# 模型权重
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+# 预提取特征
+features/**/*.npy
+features/**/*.npz

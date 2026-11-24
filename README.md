@@ -937,6 +937,27 @@ ZS-CIR-FashionIQ/
 
 实际目录可根据官方代码结构和开发进展调整。
 
+### 10.1 当前实际目录（2026-11-22）
+
+骨架已按上文建立，已有的实物文件对应如下：
+
+| 位置 | 内容 | 说明 |
+|---|---|---|
+| `data/fashion_iq/image_manifest.csv.gz` | 15,415 张图片的逐张指纹 | 图片本体不入库，来源见 `data/README.md` |
+| `checkpoints/context_i2w/epoch_30.pt` | 官方权重，2,532,409,369 字节 | Git 忽略；SHA256 `155bb110…` |
+| `src/baseline/preflight.py` | 数据/权重体检 | 缺图、坏图、权重结构缺失直接 exit 1 |
+| `src/baseline/reproduce.py` | FashionIQ 检索与指标复现 | 复用官方模型、预处理、分词模板和 `get_metrics_fashion` |
+| `src/dataset/probe_data_sources.py` | 图片镜像与审计集比对 | 覆盖率 + 逐张宽高核对 |
+| `src/dataset/prepare_data.py` | 从镜像构建官方目录结构 | 统一转 RGB PNG，官方加载器写死 `.png` |
+| `docs/baseline_reproduction.md` | 复现包完整说明 | 差异分析、验收标准、未验证项 |
+| `docs/context_i2w_code_walkthrough.ipynb` | 官方源码精读 | 12 个代码块逐字来自源码，讲清 IVS / VTE / 伪词替换 / 训练与推理 |
+| `docs/member_a_plan.md` | 成员 A 任务规划 | 职责盘点、按周计划、交接点 |
+| `notebooks/context_i2w_fashioniq_eval.ipynb` | Kaggle 全流程 | 按格顺序执行 |
+| `experiments/kaggle_bundle/` | Kaggle 上传件与打包产物 | Git 忽略（`experiments/*`） |
+| `results/baseline/` | 基线指标与日志 | 由成员 C 运行并提交 |
+
+尚未建立实现的模块：`src/attribute/`、`src/feedback/`、`src/evaluation/`、`src/utils/`、`app/`，仅保留目录占位。
+
 ---
 
 ## 11. 项目进度计划
