@@ -7,7 +7,7 @@
 | 阶段 | 内容 | 入口 |
 |---|---|---|
 | week09 | 数据获取方案、官方代码和标注获取脚本、图片恢复、权重下载、数据检查 | docs/week09_member_b.md、docs/week09_actual_delivery.md、scripts/ |
-| week10 | 全量图片审计、30 条助手图文抽查、7 组属性定义、294 项源标签映射初稿 | docs/week10/、scripts/audit_week10.py |
+| week10 | 全量图片审计、30 条助手图文抽查 | docs/week10/、scripts/audit_week10.py |
 | baseline-kaggle | 官方权重加载、单条检索测试、三类完整验证集评估 | notebooks/context_i2w_baseline.ipynb、scripts/run_context_baseline.py |
 
 ## FashionIQ 基线实际运行结果
@@ -41,11 +41,3 @@ GitHub 保存代码、配置、报告与小型审计材料；大规模图片和�
 本机已交付路径：`C:\Users\aerith\Desktop\大三上\商务大数据\Context-I2W\team-project`。FashionIQ 图片在 `data/fashion_iq/images`；权重在 `checkpoints/context_i2w`。本机工作副本可能仍选中旧分支，切换前先检查未提交修改，不能强制覆盖。
 
 原论文：https://arxiv.org/html/2309.16137v2
-
-## 2026-11-23：Fashionpedia 25项人工核查
-
-[交付与④—⑤验收状态](attribute-pilot/fashionpedia-25-review/README.md)：25项经成员B人工确认通过，含完整294行映射表、52张候选原图、25页实例核查图及实例标注子集。④仅完成Fashionpedia本轮25项，269项未映射与DeepFashion未完成；⑤模型可靠性指标尚未完成。
-
-## 2026-11-23：第⑤项实验准备
-
-[人工标注、Kaggle运行与验收说明](attribute-pilot/reliability/README.md)。沿用50开发+100评估，150张原PNG哈希核对通过；现有真值表为空，未发现模型预测。已完善导入续标、冲突保护、模型/协议记录、冻结检查、评价指标与错误案例输出，并通过离线测试。GPU实验与人工真值待完成，⑤未验收。入口：notebooks/attribute_reliability.ipynb。
