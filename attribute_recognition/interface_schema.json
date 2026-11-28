@@ -1,0 +1,1513 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Frozen Fashion Attribute Prediction",
+  "description": "Six attributes. Scores are not calibrated. Multi-label confidence entries follow value order. Unknown means no class passed its threshold.",
+  "type": "object",
+  "properties": {
+    "category": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string",
+          "enum": [
+            "Athletic Pants",
+            "Athletic Sets",
+            "Athletic Shirts",
+            "Athletic Shorts",
+            "Baggy Jeans",
+            "Batwing Tops",
+            "Beach & Swim Wear",
+            "Bikinis",
+            "Binders",
+            "Blouses",
+            "Bodysuits",
+            "Bubble Coats",
+            "Capes & Capelets",
+            "Capri Pants",
+            "Cardigans",
+            "Cargo Pants",
+            "Cargo Shorts",
+            "Casual Dresses",
+            "Casual Pants",
+            "Casual Shirts",
+            "Casual Shorts",
+            "Clubbing Dresses",
+            "Cocktail Dresses",
+            "Corsets",
+            "Costumes & Cosplay",
+            "Crop Tops",
+            "Dance Wear",
+            "Drawstring Pants",
+            "Dress Shirts",
+            "Dresses",
+            "Fashion Sets",
+            "Formal Dresses",
+            "Halter Tops",
+            "Harem Pants",
+            "Hoodies & Sweatshirts",
+            "Hosiery, Stockings, Tights",
+            "Jackets",
+            "Jeans",
+            "Jerseys",
+            "Jilbaab",
+            "Jumpsuits Overalls & Rompers",
+            "Kimonos",
+            "Leggings",
+            "Lingerie Sleepwear & Underwear",
+            "Nightgowns",
+            "Padded Bras",
+            "Pajamas",
+            "Party Dresses",
+            "Peacoats",
+            "Pencil Skirts",
+            "Petticoats",
+            "Polos",
+            "Prom Dresses",
+            "Pullover Sweaters",
+            "Raincoats",
+            "Robes",
+            "Sheer Tops",
+            "Shorts",
+            "Skinny Jeans",
+            "Skirts",
+            "Sports Bras",
+            "Suits & Blazers",
+            "Sweatpants",
+            "Swim Trunks",
+            "Swimsuit Cover-ups",
+            "Swimsuits",
+            "T-Shirts",
+            "Tank Tops",
+            "Thermal Underwear",
+            "Thigh Highs",
+            "Thongs",
+            "Three Piece Suits",
+            "Trench Coats",
+            "Trousers",
+            "Tube Tops",
+            "Tutus",
+            "Undershirts",
+            "Underwear",
+            "Uniforms",
+            "Vests",
+            "Wedding Dresses",
+            "Yoga Pants"
+          ]
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "status": {
+          "enum": [
+            "predicted"
+          ]
+        },
+        "probabilities": {
+          "type": "object",
+          "properties": {
+            "Athletic Pants": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Athletic Sets": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Athletic Shirts": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Athletic Shorts": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Baggy Jeans": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Batwing Tops": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Beach & Swim Wear": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Bikinis": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Binders": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Blouses": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Bodysuits": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Bubble Coats": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Capes & Capelets": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Capri Pants": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Cardigans": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Cargo Pants": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Cargo Shorts": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Casual Dresses": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Casual Pants": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Casual Shirts": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Casual Shorts": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Clubbing Dresses": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Cocktail Dresses": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Corsets": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Costumes & Cosplay": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Crop Tops": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Dance Wear": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Drawstring Pants": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Dress Shirts": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Dresses": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Fashion Sets": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Formal Dresses": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Halter Tops": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Harem Pants": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Hoodies & Sweatshirts": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Hosiery, Stockings, Tights": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Jackets": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Jeans": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Jerseys": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Jilbaab": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Jumpsuits Overalls & Rompers": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Kimonos": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Leggings": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Lingerie Sleepwear & Underwear": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Nightgowns": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Padded Bras": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Pajamas": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Party Dresses": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Peacoats": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Pencil Skirts": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Petticoats": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Polos": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Prom Dresses": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Pullover Sweaters": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Raincoats": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Robes": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Sheer Tops": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Shorts": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Skinny Jeans": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Skirts": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Sports Bras": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Suits & Blazers": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Sweatpants": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Swim Trunks": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Swimsuit Cover-ups": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Swimsuits": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "T-Shirts": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Tank Tops": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Thermal Underwear": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Thigh Highs": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Thongs": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Three Piece Suits": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Trench Coats": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Trousers": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Tube Tops": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Tutus": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Undershirts": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Underwear": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Uniforms": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Vests": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Wedding Dresses": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Yoga Pants": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": [
+            "Athletic Pants",
+            "Athletic Sets",
+            "Athletic Shirts",
+            "Athletic Shorts",
+            "Baggy Jeans",
+            "Batwing Tops",
+            "Beach & Swim Wear",
+            "Bikinis",
+            "Binders",
+            "Blouses",
+            "Bodysuits",
+            "Bubble Coats",
+            "Capes & Capelets",
+            "Capri Pants",
+            "Cardigans",
+            "Cargo Pants",
+            "Cargo Shorts",
+            "Casual Dresses",
+            "Casual Pants",
+            "Casual Shirts",
+            "Casual Shorts",
+            "Clubbing Dresses",
+            "Cocktail Dresses",
+            "Corsets",
+            "Costumes & Cosplay",
+            "Crop Tops",
+            "Dance Wear",
+            "Drawstring Pants",
+            "Dress Shirts",
+            "Dresses",
+            "Fashion Sets",
+            "Formal Dresses",
+            "Halter Tops",
+            "Harem Pants",
+            "Hoodies & Sweatshirts",
+            "Hosiery, Stockings, Tights",
+            "Jackets",
+            "Jeans",
+            "Jerseys",
+            "Jilbaab",
+            "Jumpsuits Overalls & Rompers",
+            "Kimonos",
+            "Leggings",
+            "Lingerie Sleepwear & Underwear",
+            "Nightgowns",
+            "Padded Bras",
+            "Pajamas",
+            "Party Dresses",
+            "Peacoats",
+            "Pencil Skirts",
+            "Petticoats",
+            "Polos",
+            "Prom Dresses",
+            "Pullover Sweaters",
+            "Raincoats",
+            "Robes",
+            "Sheer Tops",
+            "Shorts",
+            "Skinny Jeans",
+            "Skirts",
+            "Sports Bras",
+            "Suits & Blazers",
+            "Sweatpants",
+            "Swim Trunks",
+            "Swimsuit Cover-ups",
+            "Swimsuits",
+            "T-Shirts",
+            "Tank Tops",
+            "Thermal Underwear",
+            "Thigh Highs",
+            "Thongs",
+            "Three Piece Suits",
+            "Trench Coats",
+            "Trousers",
+            "Tube Tops",
+            "Tutus",
+            "Undershirts",
+            "Underwear",
+            "Uniforms",
+            "Vests",
+            "Wedding Dresses",
+            "Yoga Pants"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "value",
+        "confidence",
+        "status",
+        "probabilities"
+      ],
+      "additionalProperties": false
+    },
+    "color": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "Beige",
+              "Black",
+              "Blue",
+              "Bronze",
+              "Brown",
+              "Clear",
+              "Gold",
+              "Gray",
+              "Green",
+              "Maroon",
+              "Orange",
+              "Peach",
+              "Pink",
+              "Purple",
+              "Red",
+              "Silver",
+              "Tan",
+              "Teal",
+              "White",
+              "Yellow"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "confidence": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        "status": {
+          "enum": [
+            "predicted",
+            "unknown"
+          ]
+        },
+        "probabilities": {
+          "type": "object",
+          "properties": {
+            "Beige": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Black": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Blue": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Bronze": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Brown": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Clear": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Gold": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Gray": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Green": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Maroon": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Orange": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Peach": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Pink": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Purple": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Red": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Silver": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Tan": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Teal": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "White": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Yellow": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": [
+            "Beige",
+            "Black",
+            "Blue",
+            "Bronze",
+            "Brown",
+            "Clear",
+            "Gold",
+            "Gray",
+            "Green",
+            "Maroon",
+            "Orange",
+            "Peach",
+            "Pink",
+            "Purple",
+            "Red",
+            "Silver",
+            "Tan",
+            "Teal",
+            "White",
+            "Yellow"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "value",
+        "confidence",
+        "status",
+        "probabilities"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "unknown"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "maxItems": 0
+              },
+              "confidence": {
+                "maxItems": 0
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "value": {
+                "minItems": 1
+              },
+              "confidence": {
+                "minItems": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sleeve_length": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string",
+          "enum": [
+            "Long Sleeved",
+            "Short Sleeves",
+            "Sleeveless"
+          ]
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "status": {
+          "enum": [
+            "predicted"
+          ]
+        },
+        "probabilities": {
+          "type": "object",
+          "properties": {
+            "Long Sleeved": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Short Sleeves": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Sleeveless": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": [
+            "Long Sleeved",
+            "Short Sleeves",
+            "Sleeveless"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "value",
+        "confidence",
+        "status",
+        "probabilities"
+      ],
+      "additionalProperties": false
+    },
+    "neckline": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "string",
+          "enum": [
+            "Collared",
+            "Off The Shoulder",
+            "Round Neck",
+            "Square Necked",
+            "Sweetheart Neckline",
+            "Turtlenecks",
+            "U-Necks",
+            "V-Necks"
+          ]
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "status": {
+          "enum": [
+            "predicted"
+          ]
+        },
+        "probabilities": {
+          "type": "object",
+          "properties": {
+            "Collared": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Off The Shoulder": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Round Neck": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Square Necked": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Sweetheart Neckline": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Turtlenecks": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "U-Necks": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "V-Necks": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": [
+            "Collared",
+            "Off The Shoulder",
+            "Round Neck",
+            "Square Necked",
+            "Sweetheart Neckline",
+            "Turtlenecks",
+            "U-Necks",
+            "V-Necks"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "value",
+        "confidence",
+        "status",
+        "probabilities"
+      ],
+      "additionalProperties": false
+    },
+    "pattern": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "Argyle",
+              "Camouflage",
+              "Checkered",
+              "Chevron",
+              "Floral",
+              "Galaxy",
+              "Geometric",
+              "Hearts",
+              "Herringbone",
+              "Houndstooth",
+              "Leopard And Cheetah",
+              "Marbled",
+              "Paisley",
+              "Pin Stripes",
+              "Plaid",
+              "Polka Dot",
+              "Snakeskin",
+              "Stripes",
+              "Tie Dye",
+              "Zebra"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "confidence": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        "status": {
+          "enum": [
+            "predicted",
+            "unknown"
+          ]
+        },
+        "probabilities": {
+          "type": "object",
+          "properties": {
+            "Argyle": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Camouflage": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Checkered": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Chevron": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Floral": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Galaxy": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Geometric": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Hearts": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Herringbone": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Houndstooth": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Leopard And Cheetah": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Marbled": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Paisley": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Pin Stripes": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Plaid": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Polka Dot": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Snakeskin": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Stripes": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Tie Dye": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Zebra": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": [
+            "Argyle",
+            "Camouflage",
+            "Checkered",
+            "Chevron",
+            "Floral",
+            "Galaxy",
+            "Geometric",
+            "Hearts",
+            "Herringbone",
+            "Houndstooth",
+            "Leopard And Cheetah",
+            "Marbled",
+            "Paisley",
+            "Pin Stripes",
+            "Plaid",
+            "Polka Dot",
+            "Snakeskin",
+            "Stripes",
+            "Tie Dye",
+            "Zebra"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "value",
+        "confidence",
+        "status",
+        "probabilities"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "unknown"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "maxItems": 0
+              },
+              "confidence": {
+                "maxItems": 0
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "value": {
+                "minItems": 1
+              },
+              "confidence": {
+                "minItems": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    "material_texture": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "Canvas",
+              "Cashmere",
+              "Chambray",
+              "Chiffon",
+              "Corduroy",
+              "Cotton",
+              "Denim",
+              "Faux Fur",
+              "Flannel",
+              "Fleece",
+              "Gingham",
+              "Knit",
+              "Lace",
+              "Leather",
+              "Linen",
+              "Neoprene",
+              "Nylon",
+              "Organza",
+              "Patent",
+              "Plush",
+              "Polyester",
+              "Rayon",
+              "Satin",
+              "Silk",
+              "Spandex",
+              "Suede",
+              "Taffeta",
+              "Tulle",
+              "Tweed",
+              "Twill",
+              "Velour",
+              "Velvet",
+              "Vinyl",
+              "Wool"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "confidence": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        "status": {
+          "enum": [
+            "predicted",
+            "unknown"
+          ]
+        },
+        "probabilities": {
+          "type": "object",
+          "properties": {
+            "Canvas": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Cashmere": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Chambray": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Chiffon": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Corduroy": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Cotton": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Denim": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Faux Fur": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Flannel": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Fleece": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Gingham": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Knit": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Lace": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Leather": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Linen": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Neoprene": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Nylon": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Organza": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Patent": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Plush": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Polyester": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Rayon": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Satin": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Silk": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Spandex": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Suede": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Taffeta": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Tulle": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Tweed": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Twill": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Velour": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Velvet": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Vinyl": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "Wool": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": [
+            "Canvas",
+            "Cashmere",
+            "Chambray",
+            "Chiffon",
+            "Corduroy",
+            "Cotton",
+            "Denim",
+            "Faux Fur",
+            "Flannel",
+            "Fleece",
+            "Gingham",
+            "Knit",
+            "Lace",
+            "Leather",
+            "Linen",
+            "Neoprene",
+            "Nylon",
+            "Organza",
+            "Patent",
+            "Plush",
+            "Polyester",
+            "Rayon",
+            "Satin",
+            "Silk",
+            "Spandex",
+            "Suede",
+            "Taffeta",
+            "Tulle",
+            "Tweed",
+            "Twill",
+            "Velour",
+            "Velvet",
+            "Vinyl",
+            "Wool"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "value",
+        "confidence",
+        "status",
+        "probabilities"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "unknown"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "maxItems": 0
+              },
+              "confidence": {
+                "maxItems": 0
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "value": {
+                "minItems": 1
+              },
+              "confidence": {
+                "minItems": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "required": [
+    "category",
+    "color",
+    "sleeve_length",
+    "neckline",
+    "pattern",
+    "material_texture"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,401 @@
+{
+  "mapping_version": "imat2018-direct-atomic-v1",
+  "archive_sha256": "eabfef873669feb0d3c4a0238fcbebe0599fbc41b173abdbe6bf8ade8b6c01ea",
+  "official_taxonomy_url": "https://github.com/visipedia/imat_fashion_comp/blob/master/iMat_fashion_2018_label_map_228.csv",
+  "taxonomy_sha256": "75892e7708bb464be14a35fb141a0d0c8ef9b69d0b8d1127bedff0d35a8ae678",
+  "random_seed": 20261127,
+  "versions": {
+    "python": "3.10.11",
+    "numpy": "2.2.6",
+    "csv": "Python standard library",
+    "json": "Python standard library",
+    "zipfile": "Python standard library"
+  },
+  "attribute_order": [
+    "category",
+    "color",
+    "sleeve_length",
+    "neckline",
+    "pattern",
+    "material_texture"
+  ],
+  "attributes": {
+    "category": {
+      "type": "single",
+      "source_field": "category",
+      "classes": [
+        "Athletic Pants",
+        "Athletic Sets",
+        "Athletic Shirts",
+        "Athletic Shorts",
+        "Baggy Jeans",
+        "Batwing Tops",
+        "Beach & Swim Wear",
+        "Bikinis",
+        "Binders",
+        "Blouses",
+        "Bodysuits",
+        "Bubble Coats",
+        "Capes & Capelets",
+        "Capri Pants",
+        "Cardigans",
+        "Cargo Pants",
+        "Cargo Shorts",
+        "Casual Dresses",
+        "Casual Pants",
+        "Casual Shirts",
+        "Casual Shorts",
+        "Clubbing Dresses",
+        "Cocktail Dresses",
+        "Corsets",
+        "Costumes & Cosplay",
+        "Crop Tops",
+        "Dance Wear",
+        "Drawstring Pants",
+        "Dress Shirts",
+        "Dresses",
+        "Fashion Sets",
+        "Formal Dresses",
+        "Halter Tops",
+        "Harem Pants",
+        "Hoodies & Sweatshirts",
+        "Hosiery, Stockings, Tights",
+        "Jackets",
+        "Jeans",
+        "Jerseys",
+        "Jilbaab",
+        "Jumpsuits Overalls & Rompers",
+        "Kimonos",
+        "Leggings",
+        "Lingerie Sleepwear & Underwear",
+        "Nightgowns",
+        "Padded Bras",
+        "Pajamas",
+        "Party Dresses",
+        "Peacoats",
+        "Pencil Skirts",
+        "Petticoats",
+        "Polos",
+        "Prom Dresses",
+        "Pullover Sweaters",
+        "Raincoats",
+        "Robes",
+        "Sheer Tops",
+        "Shorts",
+        "Skinny Jeans",
+        "Skirts",
+        "Sports Bras",
+        "Suits & Blazers",
+        "Sweatpants",
+        "Swim Trunks",
+        "Swimsuit Cover-ups",
+        "Swimsuits",
+        "T-Shirts",
+        "Tank Tops",
+        "Thermal Underwear",
+        "Thigh Highs",
+        "Thongs",
+        "Three Piece Suits",
+        "Trench Coats",
+        "Trousers",
+        "Tube Tops",
+        "Tutus",
+        "Undershirts",
+        "Underwear",
+        "Uniforms",
+        "Vests",
+        "Wedding Dresses",
+        "Yoga Pants"
+      ],
+      "known_negative_policy": "single categorical supervision conditional on a known official class",
+      "excluded_official_classes": {
+        "Boots": {
+          "reason_code": "non_garment_category",
+          "reason": "鞋类或服装配件，超出服装类别范围"
+        },
+        "Business Shoes": {
+          "reason_code": "non_garment_category",
+          "reason": "鞋类或服装配件，超出服装类别范围"
+        },
+        "Casual Shoes": {
+          "reason_code": "non_garment_category",
+          "reason": "鞋类或服装配件，超出服装类别范围"
+        },
+        "Cleats": {
+          "reason_code": "non_garment_category",
+          "reason": "鞋类或服装配件，超出服装类别范围"
+        },
+        "Flats": {
+          "reason_code": "non_garment_category",
+          "reason": "鞋类或服装配件，超出服装类别范围"
+        },
+        "Heels": {
+          "reason_code": "non_garment_category",
+          "reason": "鞋类或服装配件，超出服装类别范围"
+        },
+        "Hiking Boots": {
+          "reason_code": "non_garment_category",
+          "reason": "鞋类或服装配件，超出服装类别范围"
+        },
+        "Loafers & Slip-on Shoes": {
+          "reason_code": "non_garment_category",
+          "reason": "鞋类或服装配件，超出服装类别范围"
+        },
+        "Rain Boots": {
+          "reason_code": "non_garment_category",
+          "reason": "鞋类或服装配件，超出服装类别范围"
+        },
+        "Running Shoes": {
+          "reason_code": "non_garment_category",
+          "reason": "鞋类或服装配件，超出服装类别范围"
+        },
+        "Sandals": {
+          "reason_code": "non_garment_category",
+          "reason": "鞋类或服装配件，超出服装类别范围"
+        },
+        "Shoe Accessories": {
+          "reason_code": "non_garment_category",
+          "reason": "鞋类或服装配件，超出服装类别范围"
+        },
+        "Shoe Inserts": {
+          "reason_code": "non_garment_category",
+          "reason": "鞋类或服装配件，超出服装类别范围"
+        },
+        "Shoelaces": {
+          "reason_code": "non_garment_category",
+          "reason": "鞋类或服装配件，超出服装类别范围"
+        },
+        "Slippers": {
+          "reason_code": "non_garment_category",
+          "reason": "鞋类或服装配件，超出服装类别范围"
+        },
+        "Sneakers": {
+          "reason_code": "non_garment_category",
+          "reason": "鞋类或服装配件，超出服装类别范围"
+        },
+        "Stilettos": {
+          "reason_code": "non_garment_category",
+          "reason": "鞋类或服装配件，超出服装类别范围"
+        },
+        "Wedges & Platforms": {
+          "reason_code": "non_garment_category",
+          "reason": "鞋类或服装配件，超出服装类别范围"
+        },
+        "Winter Boots": {
+          "reason_code": "non_garment_category",
+          "reason": "鞋类或服装配件，超出服装类别范围"
+        },
+        "Bra Straps": {
+          "reason_code": "non_garment_category",
+          "reason": "鞋类或服装配件，超出服装类别范围"
+        },
+        "Pasties": {
+          "reason_code": "non_garment_category",
+          "reason": "鞋类或服装配件，超出服装类别范围"
+        },
+        "Custom Made Clothing": {
+          "reason_code": "ordering_method_not_garment",
+          "reason": "定制属性，未指明服装品类"
+        },
+        "Maternity": {
+          "reason_code": "audience_not_garment",
+          "reason": "适用人群，未指明服装品类"
+        }
+      }
+    },
+    "color": {
+      "type": "multi",
+      "source_field": "color",
+      "classes": [
+        "Beige",
+        "Black",
+        "Blue",
+        "Bronze",
+        "Brown",
+        "Clear",
+        "Gold",
+        "Gray",
+        "Green",
+        "Maroon",
+        "Orange",
+        "Peach",
+        "Pink",
+        "Purple",
+        "Red",
+        "Silver",
+        "Tan",
+        "Teal",
+        "White",
+        "Yellow"
+      ],
+      "known_negative_policy": "unverified; do not infer from unlisted labels",
+      "excluded_official_classes": {
+        "Multi Color": {
+          "reason_code": "unspecified_multicolor",
+          "reason": "只说明多色，无法确定具体颜色"
+        }
+      }
+    },
+    "sleeve_length": {
+      "type": "single",
+      "source_field": "sleeve",
+      "classes": [
+        "Long Sleeved",
+        "Short Sleeves",
+        "Sleeveless"
+      ],
+      "known_negative_policy": "single categorical supervision conditional on a known official class",
+      "excluded_official_classes": {
+        "Puff Sleeves": {
+          "reason_code": "sleeve_shape_not_length",
+          "reason": "泡泡袖是袖型，不能确定袖长"
+        },
+        "Strapless": {
+          "reason_code": "strap_style_not_length",
+          "reason": "无肩带是肩带样式，不能推出无袖或其他袖长"
+        }
+      }
+    },
+    "neckline": {
+      "type": "single",
+      "source_field": "neckline",
+      "classes": [
+        "Collared",
+        "Off The Shoulder",
+        "Round Neck",
+        "Square Necked",
+        "Sweetheart Neckline",
+        "Turtlenecks",
+        "U-Necks",
+        "V-Necks"
+      ],
+      "known_negative_policy": "single categorical supervision conditional on a known official class",
+      "excluded_official_classes": {
+        "Backless Dresses": {
+          "reason_code": "back_opening_not_neckline",
+          "reason": "露背结构，未定义正面领口形状"
+        },
+        "Racerback": {
+          "reason_code": "back_strap_not_neckline",
+          "reason": "工字背是背部肩带结构，未定义领口"
+        },
+        "Shoulder Drapes": {
+          "reason_code": "shoulder_styling_not_neckline",
+          "reason": "肩部垂褶造型，未定义领口"
+        }
+      }
+    },
+    "pattern": {
+      "type": "multi",
+      "source_field": "pattern",
+      "classes": [
+        "Argyle",
+        "Camouflage",
+        "Checkered",
+        "Chevron",
+        "Floral",
+        "Galaxy",
+        "Geometric",
+        "Hearts",
+        "Herringbone",
+        "Houndstooth",
+        "Leopard And Cheetah",
+        "Marbled",
+        "Paisley",
+        "Pin Stripes",
+        "Plaid",
+        "Polka Dot",
+        "Snakeskin",
+        "Stripes",
+        "Tie Dye",
+        "Zebra"
+      ],
+      "known_negative_policy": "unverified; do not infer from unlisted labels",
+      "excluded_official_classes": {
+        "Crochet": {
+          "reason_code": "surface_detail_not_pattern",
+          "reason": "工艺、表面结构或装饰，无法确定图案"
+        },
+        "Fringe": {
+          "reason_code": "surface_detail_not_pattern",
+          "reason": "工艺、表面结构或装饰，无法确定图案"
+        },
+        "Mesh": {
+          "reason_code": "surface_detail_not_pattern",
+          "reason": "工艺、表面结构或装饰，无法确定图案"
+        },
+        "Quilted": {
+          "reason_code": "surface_detail_not_pattern",
+          "reason": "工艺、表面结构或装饰，无法确定图案"
+        },
+        "Ripped": {
+          "reason_code": "surface_detail_not_pattern",
+          "reason": "工艺、表面结构或装饰，无法确定图案"
+        },
+        "Ruched": {
+          "reason_code": "surface_detail_not_pattern",
+          "reason": "工艺、表面结构或装饰，无法确定图案"
+        },
+        "Ruffles": {
+          "reason_code": "surface_detail_not_pattern",
+          "reason": "工艺、表面结构或装饰，无法确定图案"
+        },
+        "Sequins": {
+          "reason_code": "surface_detail_not_pattern",
+          "reason": "工艺、表面结构或装饰，无法确定图案"
+        }
+      }
+    },
+    "material_texture": {
+      "type": "multi",
+      "source_field": "material",
+      "classes": [
+        "Canvas",
+        "Cashmere",
+        "Chambray",
+        "Chiffon",
+        "Corduroy",
+        "Cotton",
+        "Denim",
+        "Faux Fur",
+        "Flannel",
+        "Fleece",
+        "Gingham",
+        "Knit",
+        "Lace",
+        "Leather",
+        "Linen",
+        "Neoprene",
+        "Nylon",
+        "Organza",
+        "Patent",
+        "Plush",
+        "Polyester",
+        "Rayon",
+        "Satin",
+        "Silk",
+        "Spandex",
+        "Suede",
+        "Taffeta",
+        "Tulle",
+        "Tweed",
+        "Twill",
+        "Velour",
+        "Velvet",
+        "Vinyl",
+        "Wool"
+      ],
+      "known_negative_policy": "unverified; do not infer from unlisted labels",
+      "excluded_official_classes": {}
+    }
+  },
+  "mapping_rules": {
+    "normalization": "casefold and normalize whitespace only; output exact official label names",
+    "compound": "exact official phrase first, otherwise require a unique set of complete official phrases within same group",
+    "no_cross_group_mapping": true,
+    "automatic_merges": false,
+    "under_50": "flag only; retain",
+    "unknown_and_invalid": "mask affected attribute only",
+    "multi_supervision": "verified source positives only; absence and unlisted values carry no negative supervision"
+  }
+}

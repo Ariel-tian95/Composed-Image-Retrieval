@@ -1,0 +1,38 @@
+{
+  "seed": 20261127,
+  "source_split_id_sha256": "8cd252c3a677f5ef8bbfe56b8adc200ae75f2c8ccea49d614539435002641a0e",
+  "vocabulary_sha256": "e1d9e573ef89cd76d7ec1bfc6440fa6ab5724f0b029c306fa2531591bb404ad0",
+  "thresholds_sha256": "a9f4737d06d407f1502d4130c9291ea1669328d49b4840b451e40c70078f404b",
+  "models": {
+    "category": {
+      "file": "heads/category_head.pt",
+      "sha256": "ad98c5220949ba0597b3be0001f3f8b3c1482000f35471c7a9a7ed4cd35b6518",
+      "type": "single"
+    },
+    "color": {
+      "file": "heads/color_weak_0p3_pilot.pt",
+      "sha256": "74cfa3b50c82e2eadb5b88ec7d1b1b30f585295415816717141269b4633931a5",
+      "type": "multi"
+    },
+    "sleeve_length": {
+      "file": "heads/sleeve_head.pt",
+      "sha256": "edce1799202d01271862e3afb365200c5a0be89aa8423c58e247fb5948b05a2b",
+      "type": "single"
+    },
+    "neckline": {
+      "file": "heads/neckline_head.pt",
+      "sha256": "b0d585bfac0883cd3d0db9641cf51fb2a6f3d5fa73610c8e4f3497bbbe371fba",
+      "type": "single"
+    },
+    "pattern": {
+      "file": "heads/pattern_weak_0p1_pilot.pt",
+      "sha256": "98b3740aaef66a99ed9618bf475fe3b3ab7be5f0b1536f52fa1e7f1c930909e7",
+      "type": "multi"
+    },
+    "material_texture": {
+      "file": "heads/material_texture_weak_0p1_pilot.pt",
+      "sha256": "1cd0b921302e339e79deb4d27b4ca3defe1abd703a38ad37c89728a0cc3fcf47",
+      "type": "multi"
+    }
+  }
+}

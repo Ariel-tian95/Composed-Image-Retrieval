@@ -1,0 +1,5 @@
+{
+  "device": "cpu",
+  "context_repo": "context_i2w",
+  "context_checkpoint": "weights/official_checkpoint.pt"
+}

@@ -53,3 +53,10 @@ local_config.py
 /checkpoints/
 /results/
 *.partial
+
+# Local assets for attribute recognition
+/attribute_recognition/config.json
+/attribute_recognition/context_i2w/
+/attribute_recognition/heads/
+/attribute_recognition/weights/*
+!/attribute_recognition/weights/README.md

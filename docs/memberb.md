@@ -41,3 +41,14 @@ GitHub 保存代码、配置、报告与小型审计材料；大规模图片和�
 本机已交付路径：`C:\Users\aerith\Desktop\大三上\商务大数据\Context-I2W\team-project`。FashionIQ 图片在 `data/fashion_iq/images`；权重在 `checkpoints/context_i2w`。本机工作副本可能仍选中旧分支，切换前先检查未提交修改，不能强制覆盖。
 
 原论文：https://arxiv.org/html/2309.16137v2
+
+
+## 六属性识别模块（iMaterialist，第一版）
+
+本阶段交付服装图像到六属性及预测分数的研究原型。模块以 iMaterialist 数据训练属性头，与上文 Context-I2W 的 FashionIQ 原始检索基线分开记录。
+
+- 安全独立测试的单标签 Accuracy／Macro-F1 为服装类别 53.55%／47.17%、袖长 86.11%／82.19%、领口 60.23%／47.08%。
+- 多标签观察标签代理 Macro-F1／Micro-F1 为颜色 32.86%／64.57%、图案 42.15%／64.27%、材质纹理 31.12%／57.65%。
+- 候选接口通过 128 条特征回归和 CPU 功能测试。多标签确认负例缺失，历史编码器等价性、GPU、真实服装照片验收和正式联调仍待验证。
+
+[正式交付报告](attribute_recognition/DELIVERY_REPORT.md) · [实验详表](attribute_recognition/EXPERIMENT_RESULTS.md) · [推理接口 README](../attribute_recognition/README.md) · [局限性](attribute_recognition/LIMITATIONS.md)

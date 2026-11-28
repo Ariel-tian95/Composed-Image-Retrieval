@@ -1,0 +1,66 @@
+{
+  "files": [
+    {
+      "path": "config.example.json",
+      "bytes": 113,
+      "sha256": "52d572f85aa62ec47d89d596dcda01ce1261ce313c78005fb3e8fdf2ac120799"
+    },
+    {
+      "path": "example_usage.py",
+      "bytes": 624,
+      "sha256": "0dfcc39d8d7af19219babfb2c37831701eae72a569de824cfa8521296a380291"
+    },
+    {
+      "path": "frozen_heads.json",
+      "bytes": 1389,
+      "sha256": "0eade1471adc1073fe7e0e24d261a04502ac1a40a7205593ae73828b9d6c2160"
+    },
+    {
+      "path": "interface_schema.json",
+      "bytes": 37255,
+      "sha256": "50d9f4c01ba2eca261ee0062aa87eb029ecc989319b44050c6bd34225a815043"
+    },
+    {
+      "path": "predict.py",
+      "bytes": 12624,
+      "sha256": "e9b46db7d694eccb19f0bf99983417c334a0389ad19f2684292b91224a8eec67"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2410,
+      "sha256": "b0b8acd38ad20a1b40e428cde0c066673f3f0114a9536088f2bb398b7cfec0ad"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 290,
+      "sha256": "a30536d16222a3de07674a4c9195bce2b166942c05c3bedee4512b42c4ea91f1"
+    },
+    {
+      "path": "thresholds.json",
+      "bytes": 36336,
+      "sha256": "cdc0e7b0cd8dec67f709251c62a7fa8ccb48b8ef8c8dd8e0cb1936300da621c8"
+    },
+    {
+      "path": "verify_delivery.py",
+      "bytes": 4028,
+      "sha256": "5afeeea8ec4292a5cc3ee65dbc438fed464da7af5192e4581a0f46d7d8d70f31"
+    },
+    {
+      "path": "vocabulary.json",
+      "bytes": 12056,
+      "sha256": "e1d9e573ef89cd76d7ec1bfc6440fa6ab5724f0b029c306fa2531591bb404ad0"
+    },
+    {
+      "path": "weights/README.md",
+      "bytes": 1527,
+      "sha256": "0be7a342490d9f35ba7856872fb791222f9e757bf07558f460dbcd498e62b263"
+    }
+  ],
+  "external_checkpoint": {
+    "path": "weights/official_checkpoint.pt",
+    "bytes": 2532409369,
+    "sha256": "155bb110234bc6aaba60045173eb6bfce402928ad288ba5188dbe13c46676eb4",
+    "included": false
+  },
+  "text_hash_normalization": "CRLF -> LF; external checkpoint and frozen .pt files use raw bytes"
+}
